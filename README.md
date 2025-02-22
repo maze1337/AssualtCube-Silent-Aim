@@ -12,7 +12,7 @@ tShoot oShoot = nullptr;
 
 bool __fastcall hkShoot(DWORD* _this, void* edx, Vector3* Bullet)
 {
-    auto Target = GetCloestEntity();
+    auto Target = GetClosestEntity();
     if (Target)
     {
         *Bullet = Target->HeadPosition;
@@ -30,7 +30,7 @@ void Hooks()
 }
 ```
 
-## ⚠️ Disclaimer
-You must add the hook when in a empty match to avoid crash :(
+## ⚠️ Disclaimer  
+To prevent crashes, **ensure that the hook is added only in an empty match** before activating the exploit.  
 
-// This project is for educational purposes only.
+> **This project is intended for educational and research purposes only.**  
