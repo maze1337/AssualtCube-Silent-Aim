@@ -2,11 +2,6 @@
 
 This is a cheat for AssaultCube that implements **Silent Aim** and **Magic Bullet** by modifying the bullet trajectory to always hit the closest target’s head.
 
-## 🚀 Features
-- **Silent Aim:** Bullets will hit the target without directly aiming.
-- **Magic Bullet:** Bullets pass through **walls, floors, and objects** to hit enemies.
-- **Hooks Bullet Position:** Modifies the bullet’s destination to the closest enemy’s head.
-
 ## 🛠️ How It Works
 This exploit hooks into the game's shooting function and overrides the bullet’s position, redirecting it to the nearest enemy’s **head position**.
 
