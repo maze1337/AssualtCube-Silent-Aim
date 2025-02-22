@@ -4,7 +4,7 @@ This is a cheat for AssaultCube that implements **Silent Aim** and **Magic Bulle
 
 ## 🚀 Features
 - **Silent Aim:** Bullets will hit the target without directly aiming.
-- **Magic Bullet:** Bullets will change direction mid-air to hit the enemy.
+- **Magic Bullet:** Bullets pass through **walls, floors, and objects** to hit enemies.
 - **Hooks Bullet Position:** Modifies the bullet’s destination to the closest enemy’s head.
 
 ## 🛠️ How It Works
