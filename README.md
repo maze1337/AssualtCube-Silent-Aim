@@ -28,3 +28,9 @@ void Hooks()
     MH_CreateHook(pShoot, &hkShoot, reinterpret_cast<LPVOID*>(&oShoot));
     MH_EnableHook(pShoot);
 }
+```
+
+## ⚠️ Disclaimer
+You must add the hook when in a empty match to avoid crash :(
+
+// This project is for educational purposes only.
